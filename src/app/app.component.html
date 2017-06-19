@@ -1,4 +1,10 @@
-<div id="list_line">
-  <input type="checkbox" checked="checked">
-  <input type="text">
+<div id="list_header">
+	TODO List
 </div>
+
+<div *ngFor="let task of tasks" id="list_line">
+	<input type="checkbox" checked="checked">
+	<input type="text" value="{{task.description}}">
+</div>
+
+<div id="list_footer"></div>

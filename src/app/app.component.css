@@ -1,0 +1,19 @@
+#list_line {
+	background-image: url(/assets/list_line.png);
+	height: 30px;
+	width: 600px;
+}
+
+#list_header {
+	background-image: url(/assets/list_header.png); 
+	height: 75px; 
+	width: 600px; 
+	text-align: center; 
+	line-height: 45px;
+}
+
+#list_footer {
+	background-image: url(/assets/list_footer.png); 
+	height: 30px; 
+	width: 600px;
+}
