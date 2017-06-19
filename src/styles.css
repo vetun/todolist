@@ -4,6 +4,20 @@ body {
 	font-size: 22px;
 }
 
+input:not(:focus) {
+	border: 0;
+  	outline: 0;
+  	background: transparent;
+  	border-bottom: 0px solid black;
+}
+
+input:focus {
+	border: 0;
+  	outline: 0;
+  	background: transparent;
+  	border-bottom: 1px solid black;
+}
+
 #glasses_img {
 	position: absolute; 
 	left: 30%; 
@@ -17,4 +31,30 @@ body {
 
 #pencil_img {
 	float: left;
+}
+
+#list_article {
+	width: 600px; 
+	margin: 0 auto; 
+	margin-top: 20%;
+}
+
+#list_header {
+	background-image: url(assets/todolist_header.png); 
+	height: 75px; 
+	width: 600px; 
+	text-align: center; 
+	line-height: 45px;
+}
+
+#list_footer {
+	background-image: url(assets/todolist_footer.png); 
+	height: 30px; 
+	width: 600px;
+}
+
+#list_line {
+	background-image: url(assets/todolist_line.png);
+	height: 30px;
+	width: 600px;
 }
