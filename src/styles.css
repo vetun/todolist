@@ -3,3 +3,18 @@ body {
 	font-family: 'ABeeZee';
 	font-size: 22px;
 }
+
+#glasses_img {
+	position: absolute; 
+	left: 30%; 
+	top: 60px;
+}
+
+#coffe_img {
+	float: right;
+}
+
+
+#pencil_img {
+	float: left;
+}
