@@ -40,7 +40,7 @@ input:focus {
 }
 
 #list_header {
-	background-image: url(assets/todolist_header.png); 
+	background-image: url(assets/list_header.png); 
 	height: 75px; 
 	width: 600px; 
 	text-align: center; 
@@ -48,13 +48,13 @@ input:focus {
 }
 
 #list_footer {
-	background-image: url(assets/todolist_footer.png); 
+	background-image: url(assets/list_footer.png); 
 	height: 30px; 
 	width: 600px;
 }
 
 #list_line {
-	background-image: url(assets/todolist_line.png);
+	background-image: url(assets/list_line.png);
 	height: 30px;
 	width: 600px;
 }
