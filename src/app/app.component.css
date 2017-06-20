@@ -31,3 +31,17 @@
     left: 35px;
     bottom: 0px;
 }
+
+#remove_selected_button {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 3px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 35px;
+    bottom: 0px;
+}
