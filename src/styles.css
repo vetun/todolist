@@ -4,20 +4,6 @@ body {
 	font-size: 22px;
 }
 
-input:not(:focus) {
-	border: 0;
-  	outline: 0;
-  	background: transparent;
-  	border-bottom: 0px solid black;
-}
-
-input:focus {
-	border: 0;
-  	outline: 0;
-  	background: transparent;
-  	border-bottom: 1px solid black;
-}
-
 #glasses_img {
 	position: absolute; 
 	left: 30%; 

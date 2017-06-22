@@ -1,5 +1,21 @@
+input:not(:focus) {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 0px solid black;
+}
+
+input:focus {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
 #list_line {
-	background-image: url(/assets/list_line.png);
+    background-color: #ffe680;
+    border-top-style: solid;
+    border-top-color: #95c19c;
 	height: 30px;
 	width: 600px;
 }
