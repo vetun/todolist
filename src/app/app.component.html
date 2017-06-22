@@ -4,7 +4,7 @@
 
 <div *ngFor="let todo of todos" id="list_line">
 	<input type="checkbox" [(ngModel)]="todo.checked">
-	<input type="text" value="{{todo.description}}">
+	<input type="text" value="{{todo.description}}" size="80">
 </div>
 
 <div id="list_line">
