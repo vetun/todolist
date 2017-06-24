@@ -2,12 +2,12 @@
 	TODO List
 </div>
 
-<div *ngFor="let todo of todos" id="list_line">
+<div *ngFor="let todo of todos" name="list_line" class="list_line">
 	<input type="checkbox" [(ngModel)]="todo.checked">
 	<input type="text" value="{{todo.description}}" size="80">
 </div>
 
-<div id="list_line">
+<div name="list_line" class="list_line">
 	<button id="add_button" (click)="addLine()">+</button>
 	<button id="remove_selected_button">-</button>
 </div>

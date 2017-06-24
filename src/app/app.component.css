@@ -12,25 +12,25 @@ input:focus {
     border-bottom: 1px solid black;
 }
 
-#list_line {
-    background-color: #ffe680;
-    border-top-style: solid;
-    border-top-color: #95c19c;
-	height: 30px;
-	width: 600px;
+.list_line {
+  background-color: #ffe680;
+  border-top-style: solid;
+  border-top-color: #95c19c;
+  height: 30px;
+  width: 600px;
 }
 
 #list_header {
-	background-image: url(/assets/list_header.png); 
-	height: 75px; 
-	width: 600px; 
-	text-align: center; 
+	background-image: url(/assets/list_header.png);
+	height: 75px;
+	width: 600px;
+	text-align: center;
 	line-height: 45px;
 }
 
 #list_footer {
-	background-image: url(/assets/list_footer.png); 
-	height: 30px; 
+	background-image: url(/assets/list_footer.png);
+	height: 30px;
 	width: 600px;
 }
 
