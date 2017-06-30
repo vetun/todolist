@@ -12,7 +12,7 @@ interface Todo {
 })
 
 export class AppComponent {
-  private todos = [{"description": "do that", "checked": true}];
+  todos = [{"description": "do that", "checked": true}];
 
   addLine() {
   	this.todos.push({"description": "", "checked": false});

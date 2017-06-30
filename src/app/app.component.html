@@ -2,9 +2,11 @@
 	TODO List
 </div>
 
-<div *ngFor="let todo of todos" name="list_line" class="list_line">
-	<input type="checkbox" [(ngModel)]="todo.checked">
-	<input type="text" value="{{todo.description}}" size="80">
+<div id="scrolled">
+  <div *ngFor="let todo of todos" name="list_line" class="list_line">
+    <input type="checkbox" [(ngModel)]="todo.checked">
+    <input type="text" value="{{todo.description}}" size="80">
+  </div>
 </div>
 
 <div name="list_line" class="list_line"></div>
