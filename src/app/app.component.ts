@@ -1,9 +1,6 @@
-import { Component } from '@angular/core';
-
-interface Todo {
-	description: string;
-	checked: boolean;
-}
+import {Component, OnInit} from '@angular/core';
+import {TodoService} from "./todoService";
+import {Todo} from "./todo";
 
 @Component({
   selector: 'app-root',
@@ -11,10 +8,15 @@ interface Todo {
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
-  todos = [{"description": "do that", "checked": true}];
+export class AppComponent implements OnInit {
 
-  addLine() {
-  	this.todos.push({"description": "", "checked": false});
+  todos: Array<Todo>  = [];
+
+  constructor(private todoService: TodoService) {}
+
+  ngOnInit() {
+    this.todoService.all()
+                    .subscribe(
+                                aTodo => this.todos = aTodo);
   }
 }

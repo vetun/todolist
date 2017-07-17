@@ -3,9 +3,9 @@
 </div>
 
 <div id="scrolled">
-  <div *ngFor="let todo of todos" name="list_line" class="list_line">
-    <input type="checkbox" [(ngModel)]="todo.checked">
-    <input type="text" value="{{todo.description}}" size="80">
+  <div *ngFor="let aTodo of todos" name="list_line" class="list_line">
+    <input type="checkbox" [(ngModel)]="aTodo.checked">
+    <input type="text" value="{{aTodo.description}}" (onfocusout)="aTodo.update()" size="80">
   </div>
 </div>
 

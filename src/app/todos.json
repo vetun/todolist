@@ -1,0 +1,9 @@
+[
+  {
+    "description": "do that",
+    "checked": true,
+    "lifeCycle": {
+      "isNew": false
+    }
+  }
+]
